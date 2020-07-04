@@ -6706,6 +6706,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1805941106}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &964165988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964165989}
+  m_Layer: 0
+  m_Name: "\u7DF4\u7FD2\u7528\u7269\u4EF6"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &964165989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964165988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 222.07286, y: 120.39469, z: -38.67135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &969894125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 924164272863957057, guid: c0836720acad5a249b53954d13e64103,
@@ -7476,6 +7506,7 @@ GameObject:
   - component: {fileID: 1077948848}
   - component: {fileID: 1077948852}
   - component: {fileID: 1077948851}
+  - component: {fileID: 1077948853}
   m_Layer: 0
   m_Name: "\u5C11\u5973"
   m_TagString: Untagged
@@ -7603,6 +7634,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1077948853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077948847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05b16541412176145873ee48addf269d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
+  hp: 999.9
+  coin: 0
+  height: 500
+  soundJump: {fileID: 8300000, guid: 7c5bdb2028d5f494fbe4436b2e3c7e42, type: 3}
+  soundSlide: {fileID: 8300000, guid: 99013c95a907e8a458fb12c2ba340d87, type: 3}
+  soundDamage: {fileID: 8300000, guid: 80fdf0cb10cd36344946ee5270e9e6e0, type: 3}
 --- !u!1 &1226463073
 GameObject:
   m_ObjectHideFlags: 0
