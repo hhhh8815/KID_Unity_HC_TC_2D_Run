@@ -17,10 +17,24 @@ public class Learn1 : MonoBehaviour
         // 取得 100 - 500 隨機值
         print(Random.Range(100, 501));
 
+        // 呼叫方法
+        Test();
+        Test();
     }
 
     private void Update()
     {
         //print(Time.time);
+    }
+
+    // 方法
+    // 1. 可以被按鈕呼叫
+
+    // 語法
+    // 修飾詞 傳會類型 方法名稱 () { 程式內容 }
+    // void 無傳回
+    public void Test()
+    {
+        print("我是測試方法");
     }
 }
